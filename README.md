@@ -1,6 +1,6 @@
 # Utegymsindex 2026: utegym per 10 000 invånare i Sveriges 290 kommuner
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24463910.svg)](https://doi.org/10.5281/zenodo.24463910)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24463909.svg)](https://doi.org/10.5281/zenodo.24463909)
 
 Outdoor gym sites (utegym) and lit exercise tracks (elljusspår) per 10,000 residents for every Swedish municipality, with rank, as registered in OpenStreetMap.
 
@@ -32,4 +32,4 @@ Made by [Amble](https://amblecoach.com).
 
 ## Cite
 
-Archived on Zenodo with a DOI: https://doi.org/10.5281/zenodo.24463910
+Archived on Zenodo with a DOI: https://doi.org/10.5281/zenodo.24463909
