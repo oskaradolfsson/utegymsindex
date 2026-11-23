@@ -1,7 +1,7 @@
 {
   "upload_type": "dataset",
   "title": "Utegymsindex 2026: outdoor gyms per 10,000 residents in Sweden's 290 municipalities",
-  "description": "<p>Outdoor gym sites and lit exercise tracks per 10,000 residents for every Swedish municipality, with rank, as registered in OpenStreetMap (extract 2026-11-13), with population from Statistics Sweden (SCB, 2025). Points that belong to the same place (stations along a trail, machines in one park) are merged into one site.</p><p>OpenStreetMap misses many outdoor gyms: in a spot check on 23 November 2026, 11 of 17 municipalities with 0 here had at least one. Treat the figures as what is mapped, not what exists.</p><p>Method, charts and the full ranking: <a href=\"https://amblecoach.com/sv/data/utegymsindex/\">amblecoach.com/sv/data/utegymsindex</a>.</p>",
+  "description": "<p>Outdoor gyms and lit exercise tracks per 10,000 residents for every Swedish municipality, with rank, checked on 23 November 2026. Counts come from the municipality's own list where one exists (43 municipalities); otherwise the highest of Naturkartan, OpenStreetMap (points at one place merged into one site) and named outdoor gyms on municipal, tourism or news pages, marked as a minimum with a confidence level and sources per municipality. Population from Statistics Sweden (SCB, 2025).</p><p>Method, charts and the full ranking: <a href=\"https://amblecoach.com/sv/data/utegymsindex/\">amblecoach.com/sv/data/utegymsindex</a>.</p>",
   "creators": [
     {
       "name": "Adolfsson, Oskar",
@@ -29,5 +29,5 @@
     }
   ],
   "language": "eng",
-  "version": "1.1.1"
+  "version": "1.2.0"
 }

@@ -2,18 +2,22 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24463909.svg)](https://doi.org/10.5281/zenodo.24463909)
 
-Outdoor gym sites (utegym) and lit exercise tracks (elljusspår) per 10,000 residents for every Swedish municipality, with rank, as registered in OpenStreetMap.
+Outdoor gyms (utegym) and lit exercise tracks (elljusspår) per 10,000 residents for every Swedish municipality, with rank. Checked on 23 November 2026.
 
-**Read this first.** OpenStreetMap misses many outdoor gyms. In a spot check on 23 November 2026, 11 of 17 municipalities with 0 here had at least one outdoor gym on the municipality's own site or Naturkartan. Treat the figures as what is mapped, not what exists. A count checked against every municipality's own records is in progress.
+How each municipality's count is made:
 
-Since v1.1.0, points that belong to the same place are merged into one site (stations along a trail, machines in one park): within 300 m, 600 m if one point has no name, 1,200 m for numbered stations. `osm_fitness_points` keeps the raw count.
+- **Official list** (43 municipalities, `confidence: high`): the municipality's own list of outdoor gyms.
+- Otherwise the **highest of** Naturkartan, OpenStreetMap (points that belong to one place merged into one site) and named outdoor gyms found on municipal, tourism or news pages. These are marked `at_least: yes`, because no source is complete. `confidence: medium` = two sources agree or Naturkartan, `low` = one source.
+- `none`: nothing found in any source. That is not proof that the municipality has no outdoor gym.
+
+The `sources` column lists the pages used. Corrections are welcome: open an issue.
 
 Files:
 
 - `data/utegymsindex-2026.csv` (UTF-8, comma separated)
 - `data/utegymsindex-2026.json`
 
-Columns: rank (shared rank for equal values), municipality code, municipality, county code, population, outdoor gyms, outdoor gyms per 10,000, lit tracks, lit tracks per 10,000, all mapped places, and the municipality's page on amblecoach.com.
+Columns: rank (shared rank for equal values), municipality code, municipality, county code, population, outdoor gyms, at_least, confidence, basis, outdoor gyms per 10,000, OpenStreetMap sites, raw OpenStreetMap points, lit tracks, lit tracks per 10,000, sources, and the municipality's page on amblecoach.com.
 
 Method, charts and the full ranking in Swedish: **https://amblecoach.com/sv/data/utegymsindex/**
 
