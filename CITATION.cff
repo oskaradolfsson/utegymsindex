@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Utegymsindex 2026: outdoor gyms per 10,000 residents in Sweden's 290 municipalities"
+authors:
+  - family-names: Adolfsson
+    given-names: Oskar
+    affiliation: Amble
+license: ODbL-1.0
+url: "https://amblecoach.com/sv/data/utegymsindex/"
+repository-code: "https://github.com/oskaradolfsson/utegymsindex"
+keywords:
+  - outdoor gym
+  - utegym
+  - municipalities
+  - Sweden
+  - OpenStreetMap
+  - SCB
+  - physical activity
+  - index

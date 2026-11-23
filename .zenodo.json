@@ -1,0 +1,32 @@
+{
+  "upload_type": "dataset",
+  "title": "Utegymsindex 2026: outdoor gyms per 10,000 residents in Sweden's 290 municipalities",
+  "description": "<p>Outdoor gyms and lit exercise tracks per 10,000 residents for every Swedish municipality, with rank. Counts from OpenStreetMap (extract 2026-11-13), population from Statistics Sweden (SCB, 2025). 92 municipalities have no outdoor gym mapped; Övertorneå has the most per resident (12.52). OpenStreetMap may miss unmapped gyms.</p><p>Method, charts and the full ranking: <a href=\"https://amblecoach.com/sv/data/utegymsindex/\">amblecoach.com/sv/data/utegymsindex</a>.</p>",
+  "creators": [
+    {
+      "name": "Adolfsson, Oskar",
+      "affiliation": "Amble"
+    }
+  ],
+  "license": "odbl-1.0",
+  "keywords": [
+    "outdoor gym",
+    "utegym",
+    "municipalities",
+    "Sweden",
+    "OpenStreetMap",
+    "SCB",
+    "physical activity",
+    "index"
+  ],
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://amblecoach.com/sv/data/utegymsindex/",
+      "relation": "isSupplementTo",
+      "scheme": "url",
+      "resource_type": "other"
+    }
+  ],
+  "language": "eng"
+}
